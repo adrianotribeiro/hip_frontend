@@ -3,13 +3,13 @@ import React from "react"
 import KnowMore from "../KnowMore"
 export default function HomeSection(): React.ReactElement {
   return (
-    <section className="p-container py-12 md:h-fit lg:justify-between xl:flex xl:h-[90vh] xl:items-center xl:py-[0.20rem]">
+    <section className="p-container py-12 md:h-fit lg:justify-between xl:flex xl:h-[90vh] xl:items-center xl:py-[0.20rem] h-xl:h-[91.6vh]">
       <div className="hidden xl:inline xl:overflow-hidden">
         <Image
           width={841}
           height={830}
           alt="Horse Image"
-          className="r-img xl:w-[660px] 2xl:w-[1039px] min-[1920px]:w-[903px]"
+          className="r-img min-[1920px]:w-[903px] xl:w-[660px] 2xl:w-[1039px]"
           src="/images/principal_horse_image-fotor.png"
         />
       </div>

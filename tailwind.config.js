@@ -81,6 +81,9 @@ module.exports = {
       minWidth: {
         ...defaultTheme.width,
       },
+      screens: {
+        "h-xl": { raw: "(width: 1280px) and (height: 950px)" },
+      },
     },
   },
   plugins: [],
