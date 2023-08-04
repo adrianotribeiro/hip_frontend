@@ -77,7 +77,7 @@
   }
 }
 .p-container {
-  @media (width: 1280px) and (height: 950px) {
+  @media (min-width: 1280px) and (height: 950px) {
     height: 91.6vh !important;
   }
   @media (width: 1440px) {

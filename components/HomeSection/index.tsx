@@ -3,7 +3,7 @@ import React from "react"
 import KnowMore from "../KnowMore"
 export default function HomeSection(): React.ReactElement {
   return (
-    <section className="p-container py-12 md:h-fit lg:justify-between xl:flex xl:h-[90vh] xl:items-center xl:py-[0.20rem] min-[1440px]:h-[91vh] min-[1680px]:h-fit min-[1920px]:h-[92.6vh]">
+    <section className="p-container py-12 md:h-fit lg:justify-between xl:flex xl:h-[90vh] xl:items-center xl:py-[0.20rem]">
       <div className="hidden xl:inline xl:overflow-hidden">
         <Image
           width={841}
