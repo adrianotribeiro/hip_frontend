@@ -83,6 +83,9 @@ module.exports = {
       },
       screens: {
         "h-xl": { raw: "(width: 1280px) and (height: 950px)" },
+        "lg-xl": { raw: "(width: 1440px)" },
+        "sm-2xl": { raw: "(min-width: 1360px) and (max-width: 1366px)" },
+        "3xl": { raw: "(width:1680px)" },
       },
     },
   },

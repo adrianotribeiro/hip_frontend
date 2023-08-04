@@ -21,7 +21,7 @@ export default function Web() {
         <meta name="twitter:card" content="summary_large_image" />
         <title>Next.js Enterprise Boilerplate</title>
       </Head>
-      <section className={`body-container princpal-colors ${italiana.className}`}>
+      <section className={`body-container princpal-colors ${italiana.className} `}>
         <Header />
         <HomeSection />
       </section>

@@ -43,22 +43,7 @@
   text-fill-color: transparent; */
 }
 
-.content-container {
-  @media (width: 1440px) {
-    padding: 0.5rem !important;
-  }
-  @media (min-width: 1360px) and (max-width: 1366px) {
-    padding-bottom: 0.5rem !important;
-  }
-  @media (min-width: 1680px) {
-  }
-}
-
 .home-title {
-  @media (width: 1440px) {
-    font-size: 2.25rem;
-    width: 80% !important;
-  }
   @media (min-width: 1680px) {
     width: 100% !important;
   }
@@ -69,12 +54,6 @@
   }
 }
 .p-container {
-  @media (min-width: 1280px) and (height: 950px) {
-    /* height: 91.6vh !important; */
-  }
-  @media (width: 1440px) {
-    height: 91.1vh !important;
-  }
   @media (min-width: 1680px) {
     height: 92.4vh !important;
   }
@@ -84,19 +63,6 @@
 }
 
 .r-img {
-  @media (width: 1280px) and (height: 950px) {
-    width: 800px !important;
-    margin-left: -15%;
-    position: absolute;
-    top: 4rem;
-  }
-
-  @media (min-width: 1360px) and (max-width: 1366px) {
-    width: 620px !important;
-  }
-  @media (width: 1440px) {
-    width: 760px !important;
-  }
   @media (min-width: 1680px) {
     width: 890px !important;
     margin-left: -10%;
@@ -116,23 +82,11 @@
 }
 
 .k-r {
-  @media (width: 1440px) {
-    gap: 2rem;
-    padding: 0rem 2.5rem;
-  }
-  @media (min-width: 1360px) and (max-width: 1366px) {
-    padding: 0rem 2rem;
-  }
   @media (min-width: 1680px) {
     padding: 0rem 3rem;
   }
   @media (min-width: 1920px) {
     padding: 0rem 3.5rem;
-  }
-}
-
-.kn-content {
-  @media (min-width: 1360px) and (max-width: 1366px) {
   }
 }
 
@@ -143,12 +97,6 @@
 }
 
 .kst-r {
-  @media (min-width: 1360px) and (max-width: 1366px) {
-    padding: 0px !important;
-    font-size: 1.4rem !important;
-    line-height: 1.5rem !important;
-    letter-spacing: 0.05rem !important;
-  }
   @media (min-width: 1680px) {
     font-size: 1.7rem !important;
   }
@@ -158,19 +106,5 @@
   }
 }
 
-.kn-button {
-  @media (min-width: 1360px) and (max-width: 1366px) {
-    padding-top: 0.8rem !important;
-    justify-content: start;
-  }
-  @media (width: 1440px) {
-    padding-top: 1rem !important;
-  }
-}
-
 .ktn-button button {
-  @media (width: 1440px) {
-    font-size: 2rem !important;
-    padding: 1rem 0rem !important;
-  }
 }
