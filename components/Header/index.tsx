@@ -16,26 +16,34 @@ export default function Header(): React.ReactElement {
   return (
     <header className="t-header-responsivity flex h-20 items-center justify-between px-[5rem] pt-5 max-sm:px-[2.5rem]">
       <div className="min-md:border pt-3">
-        <Image width={115} height={115} className="img-responsive" src="/images/brasao_logo_00.png" alt="logo" />
+        <Image
+          width={115}
+          height={115}
+          className="img-responsive xl:hidden"
+          src="/images/brasao_logo_00.png"
+          alt="logo"
+        />
       </div>
-      <div className="t-menu-responsivity flex items-center gap-4 max-sm:hidden">
-        <Link className="border-[#ffd700] hover:border-b-2" href={"/"}>
+      <div className="t-menu-responsivity flex items-center gap-4 max-sm:hidden xl:pt-5">
+        <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
           HOME
         </Link>
-        <Link className="border-[#ffd700] hover:border-b-2" href={"/"}>
+        <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
           CONSULTORIA
         </Link>
-        <Link className="border-[#ffd700] hover:border-b-2" href={"/"}>
+        <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
           AULAS
         </Link>
-        <Link className="border-[#ffd700] hover:border-b-2" href={"/"}>
+        <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
           SOBRE
         </Link>
-        <Link className="border-[#ffd700] hover:border-b-2" href={"/"}>
+        <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
           CONTATO
         </Link>
-        <div className="flex items-center gap-6 pl-6">
-          <Link href={"/"}>ENTRAR</Link>
+        <div className="flex items-center gap-6 pl-6 ">
+          <Link href={"/"} className="xl:text-[1.1rem]">
+            ENTRAR
+          </Link>
           <Link className="rounded bg-white px-3 py-1 text-[1.125rem] text-[#32312B]" href={"/"}>
             CADASTRAR
           </Link>
