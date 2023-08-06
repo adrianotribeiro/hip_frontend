@@ -42,3 +42,26 @@
   /* background-clip: text;
   text-fill-color: transparent; */
 }
+
+/*Propaganda Section*/
+
+.border-stylezed {
+  /* @media (min-width: 1280px) {
+    background-color: transparent !important;
+    width: 32.5vw;
+    height: 37rem;
+    flex-shrink: 0;
+    padding: 0px;
+    border-radius: 5rem;
+    background: #272321;
+    box-shadow: -3px 0px 0px 0px #d5d0a9, 3px 0px 0px 0px #d5d0a9;
+  }
+  */
+}
+
+.bg-image-logo {
+  /* background-image: url("/images/brasao_bg_logo.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: 50% 50% !important; */
+  /* background-size: 80%; */
+}

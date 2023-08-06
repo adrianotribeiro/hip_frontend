@@ -2,6 +2,7 @@ import { Italiana } from "next/font/google"
 import Head from "next/head"
 import Header from "components/Header"
 import HomeSection from "components/HomeSection"
+import PropagandaArea from "components/PropagandaComponent"
 
 const italiana = Italiana({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function Web() {
       <section className={`body-container princpal-colors ${italiana.className} `}>
         <Header />
         <HomeSection />
+        <PropagandaArea />
       </section>
     </>
   )

@@ -14,8 +14,8 @@ export default function Header(): React.ReactElement {
   })
 
   return (
-    <header className="t-header-responsivity flex h-20 items-center justify-between px-[5rem] pt-5 max-sm:px-[2.5rem]">
-      <div className="min-md:border pt-3">
+    <header className="t-header-responsivity max-sm:px-[2.5rem] flex h-20 items-center justify-between  px-[2rem] pt-5">
+      <div className="pt-3">
         <Image
           width={115}
           height={115}
@@ -24,7 +24,7 @@ export default function Header(): React.ReactElement {
           alt="logo"
         />
       </div>
-      <div className="t-menu-responsivity flex items-center gap-4 max-sm:hidden xl:pt-5">
+      <div className="t-menu-responsivity hidden md:flex md:items-center md:gap-4 xl:pt-5">
         <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
           HOME
         </Link>

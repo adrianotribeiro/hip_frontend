@@ -88,6 +88,13 @@ module.exports = {
         "3xl": { raw: "(min-width: 1680px)" },
         "4xl": { raw: "(width: 1920px)" },
       },
+      backgroundSize: {
+        "70rem": "70rem",
+        "50rem": "50rem",
+      },
+      boxShadow: {
+        "sh-p": "-3px 0px 0px 0px #d5d0a9, 3px 0px 0px 0px #d5d0a9",
+      },
     },
   },
   plugins: [],
