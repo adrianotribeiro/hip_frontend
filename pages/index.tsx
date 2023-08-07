@@ -1,6 +1,7 @@
 "use client"
 import { Italiana } from "next/font/google"
 import Head from "next/head"
+import Consulting from "components/Consulting/consulting"
 import ConsultingVideoComponent from "components/ConsultingVideoComponent"
 import Header from "components/Header"
 import HomeSection from "components/HomeSection"
@@ -29,6 +30,7 @@ export default function Web() {
         <HomeSection />
         <PropagandaArea />
         <ConsultingVideoComponent />
+        <Consulting />
       </section>
     </>
   )

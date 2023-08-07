@@ -90,6 +90,7 @@ module.exports = {
       },
       backgroundImage: {
         brasao: "url('/images/brasao_bg_logo.png')",
+        brasao2: "url('/images/brasao_logo_02.png')",
       },
       backgroundSize: {
         "70rem": "70rem",

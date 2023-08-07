@@ -7,11 +7,11 @@ export default function ConsultingVideoComponent(): React.ReactElement {
 
   return (
     <section className="">
-      <div className="hidden xl:absolute xl:flex">
+      <div className="hidden xl:absolute xl:inline">
         <Image
           width={645.6}
           height={200}
-          className="xl:w-[585px] h-xl:w-[559px] lg-xl:w-[666px] sm-2xl:w-[585px] 3xl:w-[685px] 4xl:w-[688.5px]"
+          className="xl:w-[585px] h-xl:w-[559px] lg-xl:w-[666px] sm-2xl:w-[585px] 3xl:w-[685px] 4xl:w-[688.5px] "
           src={"/images/horse_rider_bg_fotor.png"}
           alt="Horseman"
         />
@@ -21,12 +21,12 @@ export default function ConsultingVideoComponent(): React.ReactElement {
           <p className="princpal-colors princpal-colors text-center text-[1.5rem] md:text-[2.5rem] md:leading-10 md:tracking-widest xl:w-[72%]  xl:text-right xl:tracking-normal lg-xl:text-[3rem] lg-xl:leading-[2.8rem] 3xl:w-[90%] 3xl:text-[4rem] 3xl:leading-[3.5rem]">
             Lorem Ipsum dolor sit amet, consectetur adispiscing elit.
           </p>
-          <p className="text-center text-[1.3rem] text-white md:px-[1.5rem] md:text-[1.8rem] xl:p-0 xl:text-right xl:text-[1.9rem] lg-xl:text-[2.2rem] 3xl:text-[2.5rem] 3xl:leading-[3rem]">
+          <p className="text-center text-[1.3rem] text-white md:px-[1.5rem] md:text-[1.8rem] lg:px-24 xl:p-0 xl:text-right xl:text-[1.9rem] lg-xl:text-[2.2rem] 3xl:text-[2.5rem] 3xl:leading-[3rem]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum, arcu fermentum semper efficitur,
             risus quam imperdiet neque, sit amet ullamcorper purus eros vitae nunc{" "}
           </p>
           <div className="flex justify-center md:pt-4 xl:w-full xl:justify-end xl:pt-0">
-            <button className="w-[50%] rounded bg-white py-1 text-[1rem] text-[#32312B] hover:bg-[#ececec] md:w-[30%] md:py-[0.50rem] xl:w-[60%] lg-xl:text-[1.5rem] 3xl:text-[1.5rem]">
+            <button className="w-[50%] rounded bg-white py-1 text-[1rem] text-[#32312B] md:w-[30%] md:py-[0.50rem] xl:w-[60%] lg-xl:text-[1.5rem] 3xl:text-[1.5rem]">
               LOREM IPSUM
             </button>
           </div>
