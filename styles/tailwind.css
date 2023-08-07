@@ -65,3 +65,23 @@
   /* background-position: 50% 50% !important; */
   /* background-size: 80%; */
 }
+
+/*Consulting*/
+
+.react-player {
+  @media (min-width: 1280px) {
+    width: 600px !important;
+  }
+  @media (width: 1280px) and (height: 950px) {
+    width: 550px !important;
+  }
+  @media (width: 1440px) {
+    width: 700px !important;
+  }
+  @media (min-width: 1680px) {
+    width: 700px !important;
+  }
+  @media (min-width: 1920px) {
+    width: 800px !important;
+  }
+}

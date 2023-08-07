@@ -88,6 +88,9 @@ module.exports = {
         "3xl": { raw: "(min-width: 1680px)" },
         "4xl": { raw: "(width: 1920px)" },
       },
+      backgroundImage: {
+        brasao: "url('/images/brasao_bg_logo.png')",
+      },
       backgroundSize: {
         "70rem": "70rem",
         "50rem": "50rem",
