@@ -3,13 +3,13 @@ import React from "react"
 import KnowMore from "../KnowMore"
 export default function HomeSection(): React.ReactElement {
   return (
-    <section className="py-12 md:h-fit lg:justify-between xl:flex xl:h-[90vh] xl:items-center xl:justify-end xl:py-[0.20rem] h-xl:h-[91.6vh] sm-2xl:h-[89.6vh] lg-xl:h-[91.1vh] 3xl:h-[92.4vh] 4xl:h-[92.6vh]">
+    <section className="py-12 md:h-fit lg:justify-between xl:flex xl:h-[90vh] xl:items-center xl:justify-end xl:py-[0.20rem] h-xl:h-[91.6vh] sm-2xl:h-[89.6vh] lg-xl:h-[91.1vh] 3xl:h-[92.4vh] 4xl:h-fit">
       <div className="hidden xl:absolute xl:left-0 xl:inline h-xl:-ml-36 3xl:ml-[-8rem] 4xl:relative 4xl:ml-0">
         <Image
           width={650}
           height={830}
           alt="Horse Image"
-          className="h-xl:w-[785px] sm-2xl:w-[621px] lg-xl:w-[741px] 3xl:w-[875px] 4xl:w-[939px]"
+          className="h-xl:w-[785px] sm-2xl:w-[621px] lg-xl:w-[741px] 3xl:w-[875px] 4xl:w-[938px]"
           src="/images/principal_horse_image-fotor.png"
         />
       </div>
