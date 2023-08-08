@@ -11,7 +11,7 @@ export default function ConsultingVideoComponent(): React.ReactElement {
         <Image
           width={645.6}
           height={200}
-          className="xl:w-[585px] h-xl:w-[559px] lg-xl:w-[666px] sm-2xl:w-[585px] 3xl:w-[685px] 4xl:w-[688.5px] "
+          className="xl:w-[585px] h-xl:w-[559px] sm-2xl:w-[585px] lg-xl:w-[666px] 3xl:w-[685px] 4xl:w-[741px] "
           src={"/images/horse_rider_bg_fotor.png"}
           alt="Horseman"
         />
