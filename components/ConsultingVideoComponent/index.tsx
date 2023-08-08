@@ -7,11 +7,11 @@ export default function ConsultingVideoComponent(): React.ReactElement {
 
   return (
     <section className="">
-      <div className="hidden xl:absolute xl:inline">
+      <div className="hidden xl:absolute xl:inline h-xl:ml-[-31rem]">
         <Image
           width={645.6}
           height={200}
-          className="xl:w-[585px] h-xl:w-[559px] sm-2xl:w-[585px] lg-xl:w-[666px] 3xl:w-[685px] 4xl:w-[741px] "
+          className="xl:w-[585px] h-xl:w-[611.5px] sm-2xl:w-[606px] lg-xl:w-[666px] 3xl:w-[699px] 4xl:w-[741px] "
           src={"/images/horse_rider_bg_fotor.png"}
           alt="Horseman"
         />
