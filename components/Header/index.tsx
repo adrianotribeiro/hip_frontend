@@ -41,7 +41,7 @@ export default function Header(): React.ReactElement {
           CONTATO
         </Link>
         <div className="flex items-center gap-6 pl-6 ">
-          <Link href={"/"} className="xl:text-[1.1rem]">
+          <Link href={"/"} className="xl:text-[1.2rem]">
             ENTRAR
           </Link>
           <Link className="rounded bg-white px-3 py-1 text-[1.125rem] text-[#32312B]" href={"/"}>

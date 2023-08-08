@@ -2,7 +2,7 @@ import React from "react"
 export default function PropagandaArea(): React.ReactElement {
   return (
     <section className="flex flex-col gap-7 bg-[#272321] bg-brasao bg-70rem bg-center bg-no-repeat p-8 xl:flex-row xl:justify-center xl:gap-1 xl:bg-contain xl:py-16">
-      <div className="flex flex-col gap-4 xl:h-[37rem] xl:w-[31vw] xl:shrink-0 xl:justify-center xl:rounded-[5rem] xl:bg-transparent xl:p-0 xl:shadow-sh-p 3xl:w-[28vw]">
+      <div className="flex flex-col gap-4 xl:h-[37rem] xl:w-[31vw] xl:shrink-0 xl:justify-center xl:rounded-[5rem] xl:bg-transparent xl:p-0 xl:shadow-sh-p 3xl:w-[28vw] 4xl:w-[33.33%]">
         <div className="flex flex-col items-center">
           <p className="princpal-colors text-center text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[1.8rem] 3xl:text-[2.5rem]">
             Lorem Ipsum
@@ -18,7 +18,7 @@ export default function PropagandaArea(): React.ReactElement {
           risus quam imperdiet neque, sit amet ullamcorper purus eros vitae nunc
         </p>
       </div>
-      <div className="flex flex-col gap-4 xl:h-[37rem] xl:w-[31vw] xl:shrink-0 xl:justify-center xl:rounded-[5rem] xl:bg-transparent xl:p-0 xl:shadow-sh-p 3xl:w-[28vw]">
+      <div className="flex flex-col gap-4 xl:h-[37rem] xl:w-[31vw] xl:shrink-0 xl:justify-center xl:rounded-[5rem] xl:bg-transparent xl:p-0 xl:shadow-sh-p 3xl:w-[28vw] 4xl:w-[33.33%]">
         <div className="flex flex-col items-center">
           <p className="princpal-colors text-center text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[1.8rem] 3xl:text-[2.5rem]">
             Lorem Ipsum
@@ -34,7 +34,7 @@ export default function PropagandaArea(): React.ReactElement {
           risus quam imperdiet neque, sit amet ullamcorper purus eros vitae nunc
         </p>
       </div>
-      <div className="flex flex-col gap-4 xl:h-[37rem] xl:w-[31vw] xl:shrink-0 xl:justify-center xl:rounded-[5rem] xl:bg-transparent xl:p-0 xl:shadow-sh-p 3xl:w-[28vw]">
+      <div className="flex flex-col gap-4 xl:h-[37rem] xl:w-[31vw] xl:shrink-0 xl:justify-center xl:rounded-[5rem] xl:bg-transparent xl:p-0 xl:shadow-sh-p 3xl:w-[28vw] 4xl:w-[33.33%]">
         <div className="flex flex-col items-center">
           <p className="princpal-colors text-center text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[1.8rem] 3xl:text-[2.5rem]">
             Lorem Ipsum

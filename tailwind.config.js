@@ -83,10 +83,10 @@ module.exports = {
       },
       screens: {
         "h-xl": { raw: "(width: 1280px) and (height: 950px)" },
-        "lg-xl": { raw: "(width: 1440px)" },
         "sm-2xl": { raw: "(min-width: 1360px) and (max-width: 1366px)" },
+        "lg-xl": { raw: "(width: 1440px)" },
         "3xl": { raw: "(min-width: 1680px)" },
-        "4xl": { raw: "(width: 1920px)" },
+        "4xl": { raw: "(min-width: 1920px)" },
       },
       backgroundImage: {
         brasao: "url('/images/brasao_bg_logo.png')",
