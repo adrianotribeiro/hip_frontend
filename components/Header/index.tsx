@@ -14,7 +14,7 @@ export default function Header(): React.ReactElement {
   })
 
   return (
-    <header className="t-header-responsivity max-sm:px-[2.5rem] flex h-20 items-center justify-between  px-[2rem] pt-5">
+    <header className="t-header-responsivity max-sm:px-[2.5rem] flex h-20 items-center justify-between px-[2rem] pt-5">
       <div className="pt-3">
         <Image
           width={115}
@@ -24,22 +24,24 @@ export default function Header(): React.ReactElement {
           alt="logo"
         />
       </div>
-      <div className="t-menu-responsivity hidden md:flex md:items-center md:gap-4 xl:pt-5">
-        <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
-          HOME
-        </Link>
-        <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
-          CONSULTORIA
-        </Link>
-        <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
-          AULAS
-        </Link>
-        <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
-          SOBRE
-        </Link>
-        <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
-          CONTATO
-        </Link>
+      <div className="t-menu-responsivity hidden lg:flex lg:items-center lg:gap-4 xl:pt-5 3xl:gap-32 4xl:gap-56">
+        <div className="md:flex md:items-center md:gap-4">
+          <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
+            HOME
+          </Link>
+          <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
+            CONSULTORIA
+          </Link>
+          <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
+            AULAS
+          </Link>
+          <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
+            SOBRE
+          </Link>
+          <Link className="border-[#ffd700] hover:border-b-2 xl:text-[1.2rem]" href={"/"}>
+            CONTATO
+          </Link>
+        </div>
         <div className="flex items-center gap-6 pl-6 ">
           <Link href={"/"} className="xl:text-[1.2rem]">
             ENTRAR
@@ -51,12 +53,12 @@ export default function Header(): React.ReactElement {
       </div>
 
       <animated.div
-        className="absolute left-0 top-0 h-[60vh] w-full bg-white/5 backdrop-blur-sm md:hidden"
+        className="absolute left-0 top-0 h-[60vh] w-full bg-white/5 backdrop-blur-sm lg:hidden"
         style={{ transform }}
       >
         <ResponsiveNavbar />
       </animated.div>
-      <div className="z-10 flex w-[50%] justify-end sm:hidden">
+      <div className="z-10 flex w-[50%] justify-end lg:hidden">
         <button
           className="group flex  h-12 w-12 flex-col items-center justify-center rounded"
           onClick={() => setIsOpen(!isOpen)}

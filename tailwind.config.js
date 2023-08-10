@@ -82,6 +82,7 @@ module.exports = {
         ...defaultTheme.width,
       },
       screens: {
+        "sm-768": { raw: "(width:768px)" },
         "h-xl": { raw: "(width: 1280px) and (height: 950px)" },
         "sm-2xl": { raw: "(min-width: 1360px) and (max-width: 1366px)" },
         "lg-xl": { raw: "(width: 1440px)" },
