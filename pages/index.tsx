@@ -3,6 +3,7 @@ import { Italiana } from "next/font/google"
 import Head from "next/head"
 import Consulting from "components/Consulting/consulting"
 import ConsultingVideoComponent from "components/ConsultingVideoComponent"
+import Footer from "components/Footer"
 import FormSection from "components/FormSection"
 import Header from "components/Header"
 import HomeSection from "components/HomeSection"
@@ -40,6 +41,7 @@ export default function Web() {
             <ConsultingVideoComponent />
             <Consulting />
             <FormSection />
+            <Footer />
           </div>
         </div>
       </section>
