@@ -11,7 +11,7 @@ export default function Footer(): React.ReactElement {
   return (
     <section className="flex flex-col items-center gap-3 bg-[#423934] px-3 py-8 xl:flex-row xl:justify-around ">
       <div className="">
-        <p className={`${FiraSams.className} text-center text-[1.2rem] 4xl:text-[1.8rem]`}>
+        <p className={`${FiraSams.className} text-center text-[1.2rem] 2xl:text-[1.8rem]`}>
           © 2023 Lorem Ipsum - Desenvolvido por{" "}
           <Link href={"#"} className="hover:text-[white]">
             Nissian Software
