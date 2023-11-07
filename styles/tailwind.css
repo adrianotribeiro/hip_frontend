@@ -1,3 +1,108 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*Header*/
+.t-header-responsivity {
+  /* @media (min-width: 768px) and (max-width: 834px) {
+    justify-content: center !important;
+    gap: 3rem;
+    padding: inherit !important;
+  } */
+}
+
+.t-menu-responsivity {
+  /* @media (min-width: 768px) and (max-width: 834px) {
+    gap: 0.5rem !important;
+  } */
+}
+
+.img-responsive {
+  @media (width: 768px) {
+  }
+}
+
+/*HomeSection and Knowmore*/
+.body-container {
+  background: linear-gradient(132deg, #3c3431 0%, #16120f 100%);
+  background-repeat: no-repeat;
+  color: var(--default-font-color);
+}
+
+.princpal-colors {
+  /* background: linear-gradient(
+    90deg,
+    rgba(255, 215, 0, 1),
+    rgba(184, 155, 1, 1),
+    rgba(255, 215, 0, 1),
+    rgba(184, 155, 1, 1),
+    rgba(255, 215, 0, 1)
+  ); */
+  color: rgba(255, 215, 0, 1);
+  /* background-clip: text;
+  text-fill-color: transparent; */
+}
+
+/*Propaganda Section*/
+
+.border-stylezed {
+  /* @media (min-width: 1280px) {
+    background-color: transparent !important;
+    width: 32.5vw;
+    height: 37rem;
+    flex-shrink: 0;
+    padding: 0px;
+    border-radius: 5rem;
+    background: #272321;
+    box-shadow: -3px 0px 0px 0px #d5d0a9, 3px 0px 0px 0px #d5d0a9;
+  }
+  */
+}
+
+.bg-image-logo {
+  /* background-image: url("/images/brasao_bg_logo.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: 50% 50% !important; */
+  /* background-size: 80%; */
+}
+
+/*Consulting*/
+
+.react-player {
+  @media (min-width: 1280px) {
+    width: 600px !important;
+  }
+  @media (width: 1280px) and (height: 950px) {
+    width: 550px !important;
+  }
+  @media (width: 1440px) {
+    width: 700px !important;
+  }
+  @media (min-width: 1680px) {
+    width: 700px !important;
+  }
+  @media (min-width: 1920px) {
+    width: 800px !important;
+  }
+}
+
+.react-player-cons {
+  @media (min-width: 1280px) {
+    width: 600px !important;
+  }
+  @media (width: 1280px) and (height: 950px) {
+    width: 650px !important;
+  }
+  @media (min-width: 1360px) and (max-width: 1366px) {
+    width: 640px !important;
+  }
+  @media (width: 1440px) {
+    width: 700px !important;
+  }
+  @media (min-width: 1680px) {
+    width: 728px !important;
+  }
+  @media (min-width: 1920px) {
+    width: 900px !important;
+  }
+}

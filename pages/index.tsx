@@ -1,56 +1,47 @@
+"use client"
+import { Italiana } from "next/font/google"
 import Head from "next/head"
-import { Button } from "components/Button/Button"
-import { LP_GRID_ITEMS } from "../lp-items"
+import Consulting from "components/Consulting/consulting"
+import ConsultingVideoComponent from "components/ConsultingVideoComponent"
+import Footer from "components/Footer"
+import FormSection from "components/FormSection"
+import Header from "components/Header"
+import HomeSection from "components/HomeSection"
+import PropagandaArea from "components/PropagandaComponent"
 
+const italiana = Italiana({
+  subsets: ["latin"],
+  weight: "400",
+})
 export default function Web() {
   return (
     <>
       <Head>
         <meta property="og:url" content="https://next-enterprise.vercel.app/" />
-        <meta
-          property="og:image"
-          content="https://raw.githubusercontent.com/Blazity/next-enterprise/main/project-logo.png"
-        />
+        <meta property="og:image" content="/images/bg_video_player.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
-        <title>Next.js Enterprise Boilerplate</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+        <link rel="android-chrome" sizes="192x192" href="/android-chrome-192x192.png" />
+        <link rel="android-chrome" sizes="512x512" href="/android-chrome-512x512.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+        <link rel="manifest" href="./site.webmanifest"></link>
+        <link rel="icon" type="image/png" href="/images/brasao_logo_01.png" />
+        <title>Equestrianism Website Development</title>
       </Head>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
-          <div className="mx-auto place-self-center">
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              Next.js Enterprise Boilerplate
-            </h1>
-            <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              Jumpstart your enterprise project with our feature-packed, high-performance Next.js boilerplate!
-              Experience rapid UI development, AI-powered code reviews, and an extensive suite of tools for a smooth and
-              enjoyable development process.
-            </p>
-            <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
-              Get started
-            </Button>
-            <Button
-              href="https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise"
-              intent="secondary"
-            >
-              Deploy Now
-            </Button>
-          </div>
-        </div>
-      </section>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
-          <div className="justify-center space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
-            {LP_GRID_ITEMS.map((singleItem) => (
-              <div key={singleItem.title} className="flex flex-col items-center justify-center text-center">
-                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 p-1.5 text-blue-700 dark:bg-primary-900 lg:h-12 lg:w-12">
-                  {singleItem.icon}
-                </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">{singleItem.title}</h3>
-                <p className="text-gray-500 dark:text-gray-400">{singleItem.description}</p>
-              </div>
-            ))}
+      <section className={`body-container princpal-colors   ${italiana.className} `}>
+        <div className="4xl:m-auto 4xl:min-w-[1920px] 4xl:max-w-[1920px]">
+          <div className="4xl:m-auto 4xl:min-w-[1920px] 4xl:max-w-[1920px]">
+            <Header />
+            <HomeSection />
+            <PropagandaArea />
+            <ConsultingVideoComponent />
+            <Consulting />
+            <FormSection />
+            <Footer />
           </div>
         </div>
       </section>
